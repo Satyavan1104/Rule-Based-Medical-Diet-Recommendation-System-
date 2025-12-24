@@ -1,0 +1,130 @@
+================================================================================
+MULTI-CLASS CONFUSION MATRIX - MEDICAL DIET RECOMMENDATION SYSTEM
+================================================================================
+
+OVERALL PERFORMANCE METRICS
+----------------------------------------
+Overall Accuracy: 81.13%
+Total Cases Classified: 53
+Number of Medical Domains: 8
+
+CONFUSION MATRIX
+----------------------------------------
+Format: Rows = Actual, Columns = Predicted
+
+Actual\Predicted    Diabetes       Hypertension   Heart Disease  Kidney Disease Pcos           Gastric        Thyroid        Unknown        
+--------------------------------------------------------------------------------------------------------------------------------------------
+Diabetes                         5              0              0              0              2              0              1              0
+Hypertension                     0              6              0              0              0              0              0              0
+Heart Disease                    0              0              4              0              1              0              0              0
+Kidney Disease                   0              0              0              8              0              0              0              0
+Pcos                             2              0              0              0              6              0              0              0
+Gastric                          1              0              2              0              0              4              0              0
+Thyroid                          0              0              0              0              0              1              7              0
+Unknown                          0              0              0              0              0              0              0              3
+
+PER-DOMAIN PERFORMANCE METRICS
+----------------------------------------
+
+DIABETES
+  Precision: 62.50%
+  Recall:    62.50%
+  F1-Score:  62.50%
+  Support:   8 cases
+  True Positives:  5
+  False Positives: 3
+  False Negatives: 3
+  True Negatives:  42
+
+HYPERTENSION
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+  Support:   6 cases
+  True Positives:  6
+  False Positives: 0
+  False Negatives: 0
+  True Negatives:  47
+
+HEART DISEASE
+  Precision: 66.67%
+  Recall:    80.00%
+  F1-Score:  72.73%
+  Support:   5 cases
+  True Positives:  4
+  False Positives: 2
+  False Negatives: 1
+  True Negatives:  46
+
+KIDNEY DISEASE
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+  Support:   8 cases
+  True Positives:  8
+  False Positives: 0
+  False Negatives: 0
+  True Negatives:  45
+
+PCOS
+  Precision: 66.67%
+  Recall:    75.00%
+  F1-Score:  70.59%
+  Support:   8 cases
+  True Positives:  6
+  False Positives: 3
+  False Negatives: 2
+  True Negatives:  42
+
+GASTRIC
+  Precision: 80.00%
+  Recall:    57.14%
+  F1-Score:  66.67%
+  Support:   7 cases
+  True Positives:  4
+  False Positives: 1
+  False Negatives: 3
+  True Negatives:  45
+
+THYROID
+  Precision: 87.50%
+  Recall:    87.50%
+  F1-Score:  87.50%
+  Support:   8 cases
+  True Positives:  7
+  False Positives: 1
+  False Negatives: 1
+  True Negatives:  44
+
+UNKNOWN
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+  Support:   3 cases
+  True Positives:  3
+  False Positives: 0
+  False Negatives: 0
+  True Negatives:  50
+
+================================================================================
+CLASSIFICATION SUMMARY
+================================================================================
+Total Correct Predictions: 43
+Total Incorrect Predictions: 10
+Success Rate: 43/53 = 81.13%
+
+Best Performing Domain: Hypertension (100.00%)
+Worst Performing Domain: Gastric (57.14%)
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+1. Focus on domains with lower accuracy for rule refinement
+2. Analyze misclassification patterns to improve domain detection
+3. Consider adding more distinctive features for better domain separation
+4. Implement cross-validation to ensure robustness
+5. Monitor performance over time with real-world data
+
+================================================================================
+Report Generated: 2025-12-16 12:20:22
+================================================================================

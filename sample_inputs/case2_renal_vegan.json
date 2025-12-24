@@ -1,0 +1,33 @@
+{
+  "personal": {
+    "age": 55,
+    "gender": "female",
+    "height": 160,
+    "weight": 62
+  },
+  "medical": {
+    "conditions": ["kidney disease"],
+    "allergies": [],
+    "medications": [],
+    "blood_pressure": [135, 85]
+  },
+  "dietary": {
+    "diet_type": "vegan",
+    "likes": ["quinoa"],
+    "dislikes": ["spicy"],
+    "preferred_cuisine": ["global", "asian"],
+    "meal_frequency": 3,
+    "snacking_preference": "low"
+  },
+  "lifestyle": {
+    "activity_level": "light",
+    "exercise_routine": "yoga 20m",
+    "sleep_hours": 7.5,
+    "stress_level": "moderate"
+  },
+  "nutrition": {},
+  "special": {
+    "renal": true,
+    "low_sodium": true
+  }
+}

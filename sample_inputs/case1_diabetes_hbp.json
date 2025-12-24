@@ -1,0 +1,40 @@
+{
+  "personal": {
+    "age": 45,
+    "gender": "male",
+    "height": 172,
+    "weight": 80,
+    "body_type": "endomorph"
+  },
+  "medical": {
+    "conditions": ["diabetes", "hypertension"],
+    "allergies": [],
+    "medications": ["metformin"],
+    "blood_sugar_mgdl": 160,
+    "blood_pressure": [140, 90],
+    "cholesterol_mgdl": 190,
+    "hemoglobin_gdl": 14.2
+  },
+  "dietary": {
+    "diet_type": "veg",
+    "likes": ["oats", "quinoa"],
+    "dislikes": ["spicy"],
+    "preferred_cuisine": ["indian"],
+    "meal_frequency": 3,
+    "snacking_preference": "moderate"
+  },
+  "lifestyle": {
+    "activity_level": "moderate",
+    "exercise_routine": "30 min brisk walk",
+    "sleep_hours": 6.5,
+    "stress_level": "high"
+  },
+  "nutrition": {
+    "daily_calories": 1800
+  },
+  "special": {
+    "low_gi": true,
+    "low_sodium": true,
+    "weight_loss": false
+  }
+}
